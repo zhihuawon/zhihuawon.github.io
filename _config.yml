@@ -1,0 +1,28 @@
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+encoding: utf-8
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: zhihua
+
+description: ideas worth spreading
+
+author:
+  name: zhihua
+  email: zhihuawon@gmail.com
+  github: zhihuawon
+  weibo: foreverhost
+  bio: It's now or never, never tomorrow, never next second.
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
