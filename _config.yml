@@ -14,6 +14,9 @@ defaults:
 
 description: ideas worth spreading
 
+gems:
+  - jekyll-sitemap
+  
 author:
   name: zhihua
   email: zhihuawon@gmail.com
